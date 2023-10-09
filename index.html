@@ -3,6 +3,12 @@
         <meta charset="utf-8" />
         <title>Yeye Score Support</title>
         <link rel="icon" type="image/x-icon" href="./AppIcon.svg" />
+        <script src="jquery.js"></script>
+        <script>
+            $(function(){
+                $("helpCenter").load("./HelpCenter.html");
+            });
+        </script>
     </head>
     <body
         style="
@@ -14,8 +20,6 @@
             font-family: Arial, Helvetica, sans-serif;
         "
     >
-        <!-- <img src="./AppIcon.svg" alt="Icon" style="width: 100px; position: absolute; top: 20px; left: 20px;" /> -->
-        <!-- <img src="./AppIcon.svg" alt="Icon" style="width: 10%;" /> -->
         <div style="height: 40px"></div>
         <div
             style="
@@ -62,5 +66,6 @@
                 >yeyescore@gmail.com</a
             >.
         </p>
+        <div id="helpCenter"></div>
     </body>
 </html>
